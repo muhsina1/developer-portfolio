@@ -5,11 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: coral;
 
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +39,30 @@ section{
    background-image: url(developer-portfolio-master/images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+}
+.experience-area{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+#wev-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; 
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
